@@ -12,5 +12,13 @@ public class UserPojo {
     public Support getSupport() {
         return support;
     }
+
+    @Override
+    public String toString() {
+        return "UserPojo{" +
+                "data=" + data +
+                ", support=" + support +
+                '}';
+    }
 }
 

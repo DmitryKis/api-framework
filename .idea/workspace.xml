@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5620ca15-b1c4-4a0d-b9b8-ade5d3abdb13" name="Changes" comment="Done 1.0.1 version of framework" />
+    <list default="true" id="5620ca15-b1c4-4a0d-b9b8-ade5d3abdb13" name="Changes" comment="Clear allure-result">
+      <change afterPath="$PROJECT_DIR$/src/test/java/newTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojoModels/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojoModels/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojoModels/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojoModels/Support.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojoModels/UserPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojoModels/UserPojo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +68,7 @@
       <command value="mvn clean dependency:copy-dependencies package jar:test-jar" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.getTests">
+  <component name="RunManager" selected="TestNG.newTests.checkIdEqualsAvatarIdTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,11 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getTests.userResponseValidaton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="newTests.checkCountListOfUsersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api-framework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="getTests" />
-      <option name="METHOD_NAME" value="userResponseValidaton" />
+      <option name="MAIN_CLASS_NAME" value="newTests" />
+      <option name="METHOD_NAME" value="checkCountListOfUsersTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,32 +103,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="postTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="newTests.checkIdEqualsAvatarIdTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-framework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="postTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="newTests" />
+      <option name="METHOD_NAME" value="checkIdEqualsAvatarIdTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="postTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="newTests.createUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api-framework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="postTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="newTests" />
+      <option name="METHOD_NAME" value="createUserTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="postTests.createUserIsNotValidRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="newTests.getFindPetByIdTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api-framework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="postTests" />
-      <option name="METHOD_NAME" value="createUserIsNotValidRequest" />
+      <option name="MAIN_CLASS_NAME" value="newTests" />
+      <option name="METHOD_NAME" value="getFindPetByIdTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.newTests.checkIdEqualsAvatarIdTest" />
+        <item itemvalue="TestNG.newTests.createUserTest" />
+        <item itemvalue="TestNG.newTests.checkCountListOfUsersTest" />
+        <item itemvalue="TestNG.newTests.getFindPetByIdTest" />
         <item itemvalue="TestNG.getTests" />
-        <item itemvalue="TestNG.postTests" />
-        <item itemvalue="TestNG.postTests (1)" />
-        <item itemvalue="TestNG.postTests.createUserIsNotValidRequest" />
-        <item itemvalue="TestNG.getTests.userResponseValidaton" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +161,10 @@
       <workItem from="1648683563941" duration="41000" />
       <workItem from="1648700992806" duration="3812000" />
       <workItem from="1648745347659" duration="4191000" />
-      <workItem from="1649252563503" duration="609000" />
+      <workItem from="1649252563503" duration="1318000" />
+      <workItem from="1650291576576" duration="602000" />
+      <workItem from="1650299784512" duration="366000" />
+      <workItem from="1658759469916" duration="5292000" />
     </task>
     <task id="LOCAL-00001" summary="Done 1.0.1 version of framework">
       <created>1649252987246</created>
@@ -161,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649252987246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done 1.0.1 version of framework">
+      <created>1649253183409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649253183409</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Clear allure-result">
+      <created>1649253279861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649253279861</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Done 1.0.1 version of framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done 1.0.1 version of framework" />
+    <MESSAGE value="Clear allure-result" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clear allure-result" />
   </component>
 </project>

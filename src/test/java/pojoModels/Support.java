@@ -11,4 +11,12 @@ public class Support {
     public String getText() {
         return text;
     }
+
+    @Override
+    public String toString() {
+        return "Support{" +
+                "url='" + url + '\'' +
+                ", text='" + text + '\'' +
+                '}';
+    }
 }

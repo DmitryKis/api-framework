@@ -26,4 +26,15 @@ public class Data {
     public String getAvatar() {
         return avatar;
     }
+
+    @Override
+    public String toString() {
+        return "Data{" +
+                "id=" + id +
+                ", email='" + email + '\'' +
+                ", first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
+                ", avatar='" + avatar + '\'' +
+                '}';
+    }
 }

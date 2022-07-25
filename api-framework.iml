@@ -49,8 +49,12 @@
     <orderEntry type="library" name="Maven: io.rest-assured:json-path:5.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.groovy:groovy-json:4.0.1" level="project" />
     <orderEntry type="library" name="Maven: io.rest-assured:rest-assured-common:5.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.testng:testng:7.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.beust:jcommander:1.72" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:7.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.72" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.inject:guice:no_aop:4.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.yaml:snakeyaml:1.21" level="project" />
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-testng:2.17.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: io.qameta.allure:allure-test-filter:2.17.3" level="project" />
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-rest-assured:2.17.3" level="project" />
